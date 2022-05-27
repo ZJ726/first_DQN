@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 05/26/21 02:22:42 by Eclipse SUMO sumo Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="intersection\environment.net.xml"/>
+        <route-files value="intersection\episode_routes.rou.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+    </time>
+
+    <processing>
+        <time-to-teleport value="-1"/>
+        <waiting-time-memory value="5400"/>
+    </processing>
+
+    <report>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="4053"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="0.00" end="300.00" id="TLSTL_0_InductLoopOn_N2TL_0" nVehContrib="1" flow="12.00" occupancy="0.13" speed="12.90" harmonicMeanSpeed="12.90" length="5.00" nVehEntered="1"/>
+    <interval begin="0.00" end="300.00" id="TLSTL_0_InductLoopOn_N2TL_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="300.00" id="TLSTL_0_InductLoopOn_N2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="300.00" id="TLSTL_0_InductLoopOn_N2TL_3" nVehContrib="1" flow="12.00" occupancy="0.17" speed="9.57" harmonicMeanSpeed="9.57" length="5.00" nVehEntered="1"/>
+    <interval begin="0.00" end="300.00" id="TLSTL_0_InductLoopOn_E2TL_0" nVehContrib="3" flow="36.00" occupancy="0.35" speed="14.26" harmonicMeanSpeed="14.20" length="5.00" nVehEntered="3"/>
+    <interval begin="0.00" end="300.00" id="TLSTL_0_InductLoopOn_E2TL_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="300.00" id="TLSTL_0_InductLoopOn_E2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="300.00" id="TLSTL_0_InductLoopOn_E2TL_3" nVehContrib="1" flow="12.00" occupancy="0.16" speed="10.50" harmonicMeanSpeed="10.50" length="5.00" nVehEntered="1"/>
+    <interval begin="0.00" end="300.00" id="TLSTL_0_InductLoopOn_S2TL_0" nVehContrib="3" flow="36.00" occupancy="0.41" speed="12.14" harmonicMeanSpeed="12.06" length="5.00" nVehEntered="3"/>
+    <interval begin="0.00" end="300.00" id="TLSTL_0_InductLoopOn_S2TL_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="300.00" id="TLSTL_0_InductLoopOn_S2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="300.00" id="TLSTL_0_InductLoopOn_S2TL_3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="300.00" id="TLSTL_0_InductLoopOn_W2TL_0" nVehContrib="4" flow="48.00" occupancy="0.50" speed="13.33" harmonicMeanSpeed="13.30" length="5.00" nVehEntered="4"/>
+    <interval begin="0.00" end="300.00" id="TLSTL_0_InductLoopOn_W2TL_1" nVehContrib="1" flow="12.00" occupancy="0.11" speed="14.61" harmonicMeanSpeed="14.61" length="5.00" nVehEntered="1"/>
+    <interval begin="0.00" end="300.00" id="TLSTL_0_InductLoopOn_W2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="300.00" id="TLSTL_0_InductLoopOn_W2TL_3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="300.00" end="600.00" id="TLSTL_0_InductLoopOn_N2TL_0" nVehContrib="14" flow="168.00" occupancy="1.90" speed="12.61" harmonicMeanSpeed="12.39" length="5.00" nVehEntered="15"/>
+    <interval begin="300.00" end="600.00" id="TLSTL_0_InductLoopOn_N2TL_1" nVehContrib="3" flow="36.00" occupancy="0.75" speed="9.94" harmonicMeanSpeed="7.14" length="5.00" nVehEntered="4"/>
+    <interval begin="300.00" end="600.00" id="TLSTL_0_InductLoopOn_N2TL_2" nVehContrib="1" flow="12.00" occupancy="0.41" speed="4.06" harmonicMeanSpeed="4.06" length="5.00" nVehEntered="1"/>
+    <interval begin="300.00" end="600.00" id="TLSTL_0_InductLoopOn_N2TL_3" nVehContrib="2" flow="24.00" occupancy="0.31" speed="10.69" harmonicMeanSpeed="10.69" length="5.00" nVehEntered="2"/>
+    <interval begin="300.00" end="600.00" id="TLSTL_0_InductLoopOn_E2TL_0" nVehContrib="11" flow="132.00" occupancy="1.39" speed="13.23" harmonicMeanSpeed="13.16" length="5.00" nVehEntered="11"/>
+    <interval begin="300.00" end="600.00" id="TLSTL_0_InductLoopOn_E2TL_1" nVehContrib="1" flow="12.00" occupancy="0.22" speed="14.36" harmonicMeanSpeed="14.36" length="5.00" nVehEntered="2"/>
+    <interval begin="300.00" end="600.00" id="TLSTL_0_InductLoopOn_E2TL_2" nVehContrib="1" flow="12.00" occupancy="0.35" speed="4.74" harmonicMeanSpeed="4.74" length="5.00" nVehEntered="1"/>
+    <interval begin="300.00" end="600.00" id="TLSTL_0_InductLoopOn_E2TL_3" nVehContrib="2" flow="24.00" occupancy="0.36" speed="9.35" harmonicMeanSpeed="9.34" length="5.00" nVehEntered="2"/>
+    <interval begin="300.00" end="600.00" id="TLSTL_0_InductLoopOn_S2TL_0" nVehContrib="14" flow="168.00" occupancy="5.07" speed="10.39" harmonicMeanSpeed="4.72" length="5.00" nVehEntered="16"/>
+    <interval begin="300.00" end="600.00" id="TLSTL_0_InductLoopOn_S2TL_1" nVehContrib="6" flow="72.00" occupancy="1.29" speed="10.25" harmonicMeanSpeed="7.72" length="5.00" nVehEntered="6"/>
+    <interval begin="300.00" end="600.00" id="TLSTL_0_InductLoopOn_S2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="300.00" end="600.00" id="TLSTL_0_InductLoopOn_S2TL_3" nVehContrib="2" flow="24.00" occupancy="0.30" speed="11.50" harmonicMeanSpeed="11.13" length="5.00" nVehEntered="2"/>
+    <interval begin="300.00" end="600.00" id="TLSTL_0_InductLoopOn_W2TL_0" nVehContrib="8" flow="96.00" occupancy="1.10" speed="12.21" harmonicMeanSpeed="12.13" length="5.00" nVehEntered="8"/>
+    <interval begin="300.00" end="600.00" id="TLSTL_0_InductLoopOn_W2TL_1" nVehContrib="1" flow="12.00" occupancy="0.13" speed="13.29" harmonicMeanSpeed="13.29" length="5.00" nVehEntered="1"/>
+    <interval begin="300.00" end="600.00" id="TLSTL_0_InductLoopOn_W2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="300.00" end="600.00" id="TLSTL_0_InductLoopOn_W2TL_3" nVehContrib="4" flow="48.00" occupancy="0.77" speed="9.30" harmonicMeanSpeed="8.61" length="5.00" nVehEntered="4"/>
+    <interval begin="600.00" end="900.00" id="TLSTL_0_InductLoopOn_N2TL_0" nVehContrib="16" flow="192.00" occupancy="2.24" speed="12.60" harmonicMeanSpeed="12.34" length="5.00" nVehEntered="17"/>
+    <interval begin="600.00" end="900.00" id="TLSTL_0_InductLoopOn_N2TL_1" nVehContrib="3" flow="36.00" occupancy="0.63" speed="10.51" harmonicMeanSpeed="7.94" length="5.00" nVehEntered="3"/>
+    <interval begin="600.00" end="900.00" id="TLSTL_0_InductLoopOn_N2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="600.00" end="900.00" id="TLSTL_0_InductLoopOn_N2TL_3" nVehContrib="4" flow="48.00" occupancy="0.79" speed="9.07" harmonicMeanSpeed="8.46" length="5.00" nVehEntered="4"/>
+    <interval begin="600.00" end="900.00" id="TLSTL_0_InductLoopOn_E2TL_0" nVehContrib="21" flow="252.00" occupancy="7.91" speed="10.13" harmonicMeanSpeed="4.49" length="5.00" nVehEntered="23"/>
+    <interval begin="600.00" end="900.00" id="TLSTL_0_InductLoopOn_E2TL_1" nVehContrib="12" flow="144.00" occupancy="2.79" speed="9.32" harmonicMeanSpeed="7.17" length="5.00" nVehEntered="12"/>
+    <interval begin="600.00" end="900.00" id="TLSTL_0_InductLoopOn_E2TL_2" nVehContrib="1" flow="12.00" occupancy="0.11" speed="15.23" harmonicMeanSpeed="15.23" length="5.00" nVehEntered="1"/>
+    <interval begin="600.00" end="900.00" id="TLSTL_0_InductLoopOn_E2TL_3" nVehContrib="2" flow="24.00" occupancy="0.51" speed="7.74" harmonicMeanSpeed="6.57" length="5.00" nVehEntered="2"/>
+    <interval begin="600.00" end="900.00" id="TLSTL_0_InductLoopOn_S2TL_0" nVehContrib="22" flow="264.00" occupancy="3.36" speed="11.46" harmonicMeanSpeed="11.16" length="5.00" nVehEntered="23"/>
+    <interval begin="600.00" end="900.00" id="TLSTL_0_InductLoopOn_S2TL_1" nVehContrib="3" flow="36.00" occupancy="0.66" speed="10.60" harmonicMeanSpeed="7.82" length="5.00" nVehEntered="4"/>
+    <interval begin="600.00" end="900.00" id="TLSTL_0_InductLoopOn_S2TL_2" nVehContrib="1" flow="12.00" occupancy="0.45" speed="3.74" harmonicMeanSpeed="3.74" length="5.00" nVehEntered="1"/>
+    <interval begin="600.00" end="900.00" id="TLSTL_0_InductLoopOn_S2TL_3" nVehContrib="3" flow="36.00" occupancy="0.63" speed="8.47" harmonicMeanSpeed="7.97" length="5.00" nVehEntered="3"/>
+    <interval begin="600.00" end="900.00" id="TLSTL_0_InductLoopOn_W2TL_0" nVehContrib="18" flow="216.00" occupancy="2.78" speed="11.38" harmonicMeanSpeed="10.90" length="5.00" nVehEntered="20"/>
+    <interval begin="600.00" end="900.00" id="TLSTL_0_InductLoopOn_W2TL_1" nVehContrib="5" flow="60.00" occupancy="1.37" speed="9.12" harmonicMeanSpeed="6.45" length="5.00" nVehEntered="7"/>
+    <interval begin="600.00" end="900.00" id="TLSTL_0_InductLoopOn_W2TL_2" nVehContrib="2" flow="24.00" occupancy="0.84" speed="3.97" harmonicMeanSpeed="3.97" length="5.00" nVehEntered="2"/>
+    <interval begin="600.00" end="900.00" id="TLSTL_0_InductLoopOn_W2TL_3" nVehContrib="8" flow="96.00" occupancy="2.47" speed="7.90" harmonicMeanSpeed="5.40" length="5.00" nVehEntered="8"/>
+    <interval begin="900.00" end="1200.00" id="TLSTL_0_InductLoopOn_N2TL_0" nVehContrib="20" flow="240.00" occupancy="7.73" speed="11.26" harmonicMeanSpeed="4.95" length="5.00" nVehEntered="23"/>
+    <interval begin="900.00" end="1200.00" id="TLSTL_0_InductLoopOn_N2TL_1" nVehContrib="11" flow="132.00" occupancy="2.51" speed="9.66" harmonicMeanSpeed="7.31" length="5.00" nVehEntered="11"/>
+    <interval begin="900.00" end="1200.00" id="TLSTL_0_InductLoopOn_N2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="900.00" end="1200.00" id="TLSTL_0_InductLoopOn_N2TL_3" nVehContrib="5" flow="60.00" occupancy="1.70" speed="7.45" harmonicMeanSpeed="4.89" length="5.00" nVehEntered="5"/>
+    <interval begin="900.00" end="1200.00" id="TLSTL_0_InductLoopOn_E2TL_0" nVehContrib="20" flow="240.00" occupancy="2.95" speed="12.12" harmonicMeanSpeed="11.75" length="5.00" nVehEntered="21"/>
+    <interval begin="900.00" end="1200.00" id="TLSTL_0_InductLoopOn_E2TL_1" nVehContrib="5" flow="60.00" occupancy="0.87" speed="11.24" harmonicMeanSpeed="9.62" length="5.00" nVehEntered="5"/>
+    <interval begin="900.00" end="1200.00" id="TLSTL_0_InductLoopOn_E2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="900.00" end="1200.00" id="TLSTL_0_InductLoopOn_E2TL_3" nVehContrib="2" flow="24.00" occupancy="0.46" speed="7.85" harmonicMeanSpeed="7.23" length="5.00" nVehEntered="2"/>
+    <interval begin="900.00" end="1200.00" id="TLSTL_0_InductLoopOn_S2TL_0" nVehContrib="22" flow="264.00" occupancy="3.36" speed="11.26" harmonicMeanSpeed="10.91" length="5.00" nVehEntered="22"/>
+    <interval begin="900.00" end="1200.00" id="TLSTL_0_InductLoopOn_S2TL_1" nVehContrib="10" flow="120.00" occupancy="1.37" speed="13.37" harmonicMeanSpeed="13.27" length="5.00" nVehEntered="11"/>
+    <interval begin="900.00" end="1200.00" id="TLSTL_0_InductLoopOn_S2TL_2" nVehContrib="2" flow="24.00" occupancy="0.44" speed="10.70" harmonicMeanSpeed="7.54" length="5.00" nVehEntered="2"/>
+    <interval begin="900.00" end="1200.00" id="TLSTL_0_InductLoopOn_S2TL_3" nVehContrib="6" flow="72.00" occupancy="0.85" speed="12.18" harmonicMeanSpeed="11.72" length="5.00" nVehEntered="6"/>
+    <interval begin="900.00" end="1200.00" id="TLSTL_0_InductLoopOn_W2TL_0" nVehContrib="23" flow="276.00" occupancy="3.64" speed="11.70" harmonicMeanSpeed="11.48" length="5.00" nVehEntered="26"/>
+    <interval begin="900.00" end="1200.00" id="TLSTL_0_InductLoopOn_W2TL_1" nVehContrib="10" flow="120.00" occupancy="1.99" speed="10.83" harmonicMeanSpeed="8.38" length="5.00" nVehEntered="10"/>
+    <interval begin="900.00" end="1200.00" id="TLSTL_0_InductLoopOn_W2TL_2" nVehContrib="1" flow="12.00" occupancy="0.12" speed="14.03" harmonicMeanSpeed="14.03" length="5.00" nVehEntered="1"/>
+    <interval begin="900.00" end="1200.00" id="TLSTL_0_InductLoopOn_W2TL_3" nVehContrib="6" flow="72.00" occupancy="2.27" speed="7.32" harmonicMeanSpeed="4.80" length="5.00" nVehEntered="7"/>
+    <interval begin="1200.00" end="1500.00" id="TLSTL_0_InductLoopOn_N2TL_0" nVehContrib="18" flow="216.00" occupancy="6.79" speed="10.50" harmonicMeanSpeed="4.60" length="5.00" nVehEntered="22"/>
+    <interval begin="1200.00" end="1500.00" id="TLSTL_0_InductLoopOn_N2TL_1" nVehContrib="9" flow="108.00" occupancy="2.70" speed="9.00" harmonicMeanSpeed="5.80" length="5.00" nVehEntered="12"/>
+    <interval begin="1200.00" end="1500.00" id="TLSTL_0_InductLoopOn_N2TL_2" nVehContrib="3" flow="36.00" occupancy="1.36" speed="3.73" harmonicMeanSpeed="3.68" length="5.00" nVehEntered="3"/>
+    <interval begin="1200.00" end="1500.00" id="TLSTL_0_InductLoopOn_N2TL_3" nVehContrib="3" flow="36.00" occupancy="0.60" speed="8.96" harmonicMeanSpeed="8.31" length="5.00" nVehEntered="3"/>
+    <interval begin="1200.00" end="1500.00" id="TLSTL_0_InductLoopOn_E2TL_0" nVehContrib="17" flow="204.00" occupancy="5.90" speed="11.31" harmonicMeanSpeed="4.96" length="5.00" nVehEntered="18"/>
+    <interval begin="1200.00" end="1500.00" id="TLSTL_0_InductLoopOn_E2TL_1" nVehContrib="8" flow="96.00" occupancy="1.32" speed="12.53" harmonicMeanSpeed="10.27" length="5.00" nVehEntered="9"/>
+    <interval begin="1200.00" end="1500.00" id="TLSTL_0_InductLoopOn_E2TL_2" nVehContrib="2" flow="24.00" occupancy="0.64" speed="6.09" harmonicMeanSpeed="5.20" length="5.00" nVehEntered="2"/>
+    <interval begin="1200.00" end="1500.00" id="TLSTL_0_InductLoopOn_E2TL_3" nVehContrib="6" flow="72.00" occupancy="2.04" speed="7.42" harmonicMeanSpeed="4.91" length="5.00" nVehEntered="6"/>
+    <interval begin="1200.00" end="1500.00" id="TLSTL_0_InductLoopOn_S2TL_0" nVehContrib="17" flow="204.00" occupancy="15.17" speed="9.66" harmonicMeanSpeed="1.87" length="5.00" nVehEntered="17"/>
+    <interval begin="1200.00" end="1500.00" id="TLSTL_0_InductLoopOn_S2TL_1" nVehContrib="7" flow="84.00" occupancy="1.40" speed="11.60" harmonicMeanSpeed="11.14" length="5.00" nVehEntered="8"/>
+    <interval begin="1200.00" end="1500.00" id="TLSTL_0_InductLoopOn_S2TL_2" nVehContrib="3" flow="36.00" occupancy="0.64" speed="10.63" harmonicMeanSpeed="7.81" length="5.00" nVehEntered="3"/>
+    <interval begin="1200.00" end="1500.00" id="TLSTL_0_InductLoopOn_S2TL_3" nVehContrib="8" flow="96.00" occupancy="1.47" speed="10.00" harmonicMeanSpeed="9.09" length="5.00" nVehEntered="8"/>
+    <interval begin="1200.00" end="1500.00" id="TLSTL_0_InductLoopOn_W2TL_0" nVehContrib="27" flow="324.00" occupancy="4.86" speed="11.41" harmonicMeanSpeed="10.95" length="5.00" nVehEntered="29"/>
+    <interval begin="1200.00" end="1500.00" id="TLSTL_0_InductLoopOn_W2TL_1" nVehContrib="11" flow="132.00" occupancy="2.14" speed="11.53" harmonicMeanSpeed="8.55" length="5.00" nVehEntered="11"/>
+    <interval begin="1200.00" end="1500.00" id="TLSTL_0_InductLoopOn_W2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="1200.00" end="1500.00" id="TLSTL_0_InductLoopOn_W2TL_3" nVehContrib="6" flow="72.00" occupancy="1.03" speed="8.76" harmonicMeanSpeed="8.25" length="5.00" nVehEntered="5"/>
+    <interval begin="1500.00" end="1800.00" id="TLSTL_0_InductLoopOn_N2TL_0" nVehContrib="17" flow="204.00" occupancy="4.00" speed="11.88" harmonicMeanSpeed="11.45" length="5.00" nVehEntered="24"/>
+    <interval begin="1500.00" end="1800.00" id="TLSTL_0_InductLoopOn_N2TL_1" nVehContrib="8" flow="96.00" occupancy="3.54" speed="4.90" harmonicMeanSpeed="3.95" length="5.00" nVehEntered="10"/>
+    <interval begin="1500.00" end="1800.00" id="TLSTL_0_InductLoopOn_N2TL_2" nVehContrib="2" flow="24.00" occupancy="0.75" speed="4.46" harmonicMeanSpeed="4.46" length="5.00" nVehEntered="2"/>
+    <interval begin="1500.00" end="1800.00" id="TLSTL_0_InductLoopOn_N2TL_3" nVehContrib="4" flow="48.00" occupancy="0.76" speed="9.61" harmonicMeanSpeed="8.78" length="5.00" nVehEntered="4"/>
+    <interval begin="1500.00" end="1800.00" id="TLSTL_0_InductLoopOn_E2TL_0" nVehContrib="21" flow="252.00" occupancy="3.94" speed="11.42" harmonicMeanSpeed="11.06" length="5.00" nVehEntered="23"/>
+    <interval begin="1500.00" end="1800.00" id="TLSTL_0_InductLoopOn_E2TL_1" nVehContrib="7" flow="84.00" occupancy="1.77" speed="10.33" harmonicMeanSpeed="7.09" length="5.00" nVehEntered="8"/>
+    <interval begin="1500.00" end="1800.00" id="TLSTL_0_InductLoopOn_E2TL_2" nVehContrib="2" flow="24.00" occupancy="0.46" speed="9.16" harmonicMeanSpeed="7.26" length="5.00" nVehEntered="2"/>
+    <interval begin="1500.00" end="1800.00" id="TLSTL_0_InductLoopOn_E2TL_3" nVehContrib="6" flow="72.00" occupancy="30.38" speed="5.48" harmonicMeanSpeed="0.33" length="5.00" nVehEntered="6"/>
+    <interval begin="1500.00" end="1800.00" id="TLSTL_0_InductLoopOn_S2TL_0" nVehContrib="25" flow="300.00" occupancy="9.73" speed="10.08" harmonicMeanSpeed="4.42" length="5.00" nVehEntered="29"/>
+    <interval begin="1500.00" end="1800.00" id="TLSTL_0_InductLoopOn_S2TL_1" nVehContrib="8" flow="96.00" occupancy="2.62" speed="7.13" harmonicMeanSpeed="5.35" length="5.00" nVehEntered="10"/>
+    <interval begin="1500.00" end="1800.00" id="TLSTL_0_InductLoopOn_S2TL_2" nVehContrib="3" flow="36.00" occupancy="1.01" speed="7.23" harmonicMeanSpeed="4.97" length="5.00" nVehEntered="3"/>
+    <interval begin="1500.00" end="1800.00" id="TLSTL_0_InductLoopOn_S2TL_3" nVehContrib="5" flow="60.00" occupancy="1.95" speed="6.58" harmonicMeanSpeed="4.27" length="5.00" nVehEntered="5"/>
+    <interval begin="1500.00" end="1800.00" id="TLSTL_0_InductLoopOn_W2TL_0" nVehContrib="20" flow="240.00" occupancy="6.12" speed="10.76" harmonicMeanSpeed="5.45" length="5.00" nVehEntered="20"/>
+    <interval begin="1500.00" end="1800.00" id="TLSTL_0_InductLoopOn_W2TL_1" nVehContrib="9" flow="108.00" occupancy="1.19" speed="12.66" harmonicMeanSpeed="12.56" length="5.00" nVehEntered="9"/>
+    <interval begin="1500.00" end="1800.00" id="TLSTL_0_InductLoopOn_W2TL_2" nVehContrib="1" flow="12.00" occupancy="0.13" speed="13.16" harmonicMeanSpeed="13.16" length="5.00" nVehEntered="1"/>
+    <interval begin="1500.00" end="1800.00" id="TLSTL_0_InductLoopOn_W2TL_3" nVehContrib="2" flow="24.00" occupancy="0.35" speed="9.58" harmonicMeanSpeed="9.57" length="5.00" nVehEntered="2"/>
+    <interval begin="1800.00" end="2100.00" id="TLSTL_0_InductLoopOn_N2TL_0" nVehContrib="17" flow="204.00" occupancy="2.33" speed="12.48" harmonicMeanSpeed="12.18" length="5.00" nVehEntered="17"/>
+    <interval begin="1800.00" end="2100.00" id="TLSTL_0_InductLoopOn_N2TL_1" nVehContrib="3" flow="36.00" occupancy="0.48" speed="13.16" harmonicMeanSpeed="13.08" length="5.00" nVehEntered="4"/>
+    <interval begin="1800.00" end="2100.00" id="TLSTL_0_InductLoopOn_N2TL_2" nVehContrib="1" flow="12.00" occupancy="0.36" speed="4.65" harmonicMeanSpeed="4.65" length="5.00" nVehEntered="1"/>
+    <interval begin="1800.00" end="2100.00" id="TLSTL_0_InductLoopOn_N2TL_3" nVehContrib="1" flow="12.00" occupancy="0.12" speed="13.93" harmonicMeanSpeed="13.93" length="5.00" nVehEntered="1"/>
+    <interval begin="1800.00" end="2100.00" id="TLSTL_0_InductLoopOn_E2TL_0" nVehContrib="23" flow="276.00" occupancy="3.44" speed="11.84" harmonicMeanSpeed="11.52" length="5.00" nVehEntered="25"/>
+    <interval begin="1800.00" end="2100.00" id="TLSTL_0_InductLoopOn_E2TL_1" nVehContrib="7" flow="84.00" occupancy="1.48" speed="10.62" harmonicMeanSpeed="8.09" length="5.00" nVehEntered="8"/>
+    <interval begin="1800.00" end="2100.00" id="TLSTL_0_InductLoopOn_E2TL_2" nVehContrib="1" flow="12.00" occupancy="0.43" speed="3.92" harmonicMeanSpeed="3.92" length="5.00" nVehEntered="1"/>
+    <interval begin="1800.00" end="2100.00" id="TLSTL_0_InductLoopOn_E2TL_3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="1800.00" end="2100.00" id="TLSTL_0_InductLoopOn_S2TL_0" nVehContrib="12" flow="144.00" occupancy="1.92" speed="12.15" harmonicMeanSpeed="11.59" length="5.00" nVehEntered="16"/>
+    <interval begin="1800.00" end="2100.00" id="TLSTL_0_InductLoopOn_S2TL_1" nVehContrib="7" flow="84.00" occupancy="2.03" speed="8.00" harmonicMeanSpeed="5.75" length="5.00" nVehEntered="7"/>
+    <interval begin="1800.00" end="2100.00" id="TLSTL_0_InductLoopOn_S2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="1800.00" end="2100.00" id="TLSTL_0_InductLoopOn_S2TL_3" nVehContrib="4" flow="48.00" occupancy="0.76" speed="9.09" harmonicMeanSpeed="8.72" length="5.00" nVehEntered="4"/>
+    <interval begin="1800.00" end="2100.00" id="TLSTL_0_InductLoopOn_W2TL_0" nVehContrib="18" flow="216.00" occupancy="2.49" speed="12.28" harmonicMeanSpeed="12.03" length="5.00" nVehEntered="18"/>
+    <interval begin="1800.00" end="2100.00" id="TLSTL_0_InductLoopOn_W2TL_1" nVehContrib="2" flow="24.00" occupancy="0.27" speed="12.56" harmonicMeanSpeed="12.46" length="5.00" nVehEntered="2"/>
+    <interval begin="1800.00" end="2100.00" id="TLSTL_0_InductLoopOn_W2TL_2" nVehContrib="2" flow="24.00" occupancy="0.23" speed="14.39" harmonicMeanSpeed="14.35" length="5.00" nVehEntered="2"/>
+    <interval begin="1800.00" end="2100.00" id="TLSTL_0_InductLoopOn_W2TL_3" nVehContrib="4" flow="48.00" occupancy="0.93" speed="7.76" harmonicMeanSpeed="7.15" length="5.00" nVehEntered="4"/>
+    <interval begin="2100.00" end="2400.00" id="TLSTL_0_InductLoopOn_N2TL_0" nVehContrib="16" flow="192.00" occupancy="2.27" speed="12.95" harmonicMeanSpeed="12.66" length="5.00" nVehEntered="18"/>
+    <interval begin="2100.00" end="2400.00" id="TLSTL_0_InductLoopOn_N2TL_1" nVehContrib="4" flow="48.00" occupancy="0.99" speed="9.37" harmonicMeanSpeed="6.75" length="5.00" nVehEntered="4"/>
+    <interval begin="2100.00" end="2400.00" id="TLSTL_0_InductLoopOn_N2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="2100.00" end="2400.00" id="TLSTL_0_InductLoopOn_N2TL_3" nVehContrib="3" flow="36.00" occupancy="1.36" speed="6.14" harmonicMeanSpeed="3.69" length="5.00" nVehEntered="3"/>
+    <interval begin="2100.00" end="2400.00" id="TLSTL_0_InductLoopOn_E2TL_0" nVehContrib="13" flow="156.00" occupancy="1.80" speed="12.29" harmonicMeanSpeed="12.04" length="5.00" nVehEntered="13"/>
+    <interval begin="2100.00" end="2400.00" id="TLSTL_0_InductLoopOn_E2TL_1" nVehContrib="1" flow="12.00" occupancy="0.12" speed="14.40" harmonicMeanSpeed="14.40" length="5.00" nVehEntered="1"/>
+    <interval begin="2100.00" end="2400.00" id="TLSTL_0_InductLoopOn_E2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="2100.00" end="2400.00" id="TLSTL_0_InductLoopOn_E2TL_3" nVehContrib="2" flow="24.00" occupancy="0.36" speed="9.29" harmonicMeanSpeed="9.29" length="5.00" nVehEntered="2"/>
+    <interval begin="2100.00" end="2400.00" id="TLSTL_0_InductLoopOn_S2TL_0" nVehContrib="21" flow="252.00" occupancy="2.93" speed="12.68" harmonicMeanSpeed="12.41" length="5.00" nVehEntered="23"/>
+    <interval begin="2100.00" end="2400.00" id="TLSTL_0_InductLoopOn_S2TL_1" nVehContrib="4" flow="48.00" occupancy="1.05" speed="8.92" harmonicMeanSpeed="6.34" length="5.00" nVehEntered="4"/>
+    <interval begin="2100.00" end="2400.00" id="TLSTL_0_InductLoopOn_S2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="2100.00" end="2400.00" id="TLSTL_0_InductLoopOn_S2TL_3" nVehContrib="4" flow="48.00" occupancy="0.72" speed="10.00" harmonicMeanSpeed="9.22" length="5.00" nVehEntered="4"/>
+    <interval begin="2100.00" end="2400.00" id="TLSTL_0_InductLoopOn_W2TL_0" nVehContrib="13" flow="156.00" occupancy="1.92" speed="12.08" harmonicMeanSpeed="11.85" length="5.00" nVehEntered="14"/>
+    <interval begin="2100.00" end="2400.00" id="TLSTL_0_InductLoopOn_W2TL_1" nVehContrib="4" flow="48.00" occupancy="0.74" speed="11.37" harmonicMeanSpeed="9.02" length="5.00" nVehEntered="4"/>
+    <interval begin="2100.00" end="2400.00" id="TLSTL_0_InductLoopOn_W2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="2100.00" end="2400.00" id="TLSTL_0_InductLoopOn_W2TL_3" nVehContrib="3" flow="36.00" occupancy="1.54" speed="6.06" harmonicMeanSpeed="3.25" length="5.00" nVehEntered="3"/>
+    <interval begin="2400.00" end="2700.00" id="TLSTL_0_InductLoopOn_N2TL_0" nVehContrib="9" flow="108.00" occupancy="1.13" speed="13.45" harmonicMeanSpeed="13.32" length="5.00" nVehEntered="9"/>
+    <interval begin="2400.00" end="2700.00" id="TLSTL_0_InductLoopOn_N2TL_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="2400.00" end="2700.00" id="TLSTL_0_InductLoopOn_N2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="2400.00" end="2700.00" id="TLSTL_0_InductLoopOn_N2TL_3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="2400.00" end="2700.00" id="TLSTL_0_InductLoopOn_E2TL_0" nVehContrib="16" flow="192.00" occupancy="2.42" speed="11.90" harmonicMeanSpeed="11.57" length="5.00" nVehEntered="18"/>
+    <interval begin="2400.00" end="2700.00" id="TLSTL_0_InductLoopOn_E2TL_1" nVehContrib="4" flow="48.00" occupancy="1.02" speed="9.09" harmonicMeanSpeed="6.51" length="5.00" nVehEntered="4"/>
+    <interval begin="2400.00" end="2700.00" id="TLSTL_0_InductLoopOn_E2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="2400.00" end="2700.00" id="TLSTL_0_InductLoopOn_E2TL_3" nVehContrib="1" flow="12.00" occupancy="0.18" speed="9.31" harmonicMeanSpeed="9.31" length="5.00" nVehEntered="1"/>
+    <interval begin="2400.00" end="2700.00" id="TLSTL_0_InductLoopOn_S2TL_0" nVehContrib="19" flow="228.00" occupancy="2.85" speed="11.65" harmonicMeanSpeed="11.40" length="5.00" nVehEntered="20"/>
+    <interval begin="2400.00" end="2700.00" id="TLSTL_0_InductLoopOn_S2TL_1" nVehContrib="6" flow="72.00" occupancy="1.01" speed="11.91" harmonicMeanSpeed="9.94" length="5.00" nVehEntered="6"/>
+    <interval begin="2400.00" end="2700.00" id="TLSTL_0_InductLoopOn_S2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="2400.00" end="2700.00" id="TLSTL_0_InductLoopOn_S2TL_3" nVehContrib="6" flow="72.00" occupancy="1.21" speed="8.76" harmonicMeanSpeed="8.23" length="5.00" nVehEntered="6"/>
+    <interval begin="2400.00" end="2700.00" id="TLSTL_0_InductLoopOn_W2TL_0" nVehContrib="8" flow="96.00" occupancy="1.13" speed="12.98" harmonicMeanSpeed="12.90" length="5.00" nVehEntered="9"/>
+    <interval begin="2400.00" end="2700.00" id="TLSTL_0_InductLoopOn_W2TL_1" nVehContrib="1" flow="12.00" occupancy="0.37" speed="4.56" harmonicMeanSpeed="4.56" length="5.00" nVehEntered="1"/>
+    <interval begin="2400.00" end="2700.00" id="TLSTL_0_InductLoopOn_W2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="2400.00" end="2700.00" id="TLSTL_0_InductLoopOn_W2TL_3" nVehContrib="1" flow="12.00" occupancy="0.16" speed="10.19" harmonicMeanSpeed="10.19" length="5.00" nVehEntered="1"/>
+    <interval begin="2700.00" end="3000.00" id="TLSTL_0_InductLoopOn_N2TL_0" nVehContrib="8" flow="96.00" occupancy="1.09" speed="13.30" harmonicMeanSpeed="13.20" length="5.00" nVehEntered="9"/>
+    <interval begin="2700.00" end="3000.00" id="TLSTL_0_InductLoopOn_N2TL_1" nVehContrib="1" flow="12.00" occupancy="0.38" speed="4.40" harmonicMeanSpeed="4.40" length="5.00" nVehEntered="1"/>
+    <interval begin="2700.00" end="3000.00" id="TLSTL_0_InductLoopOn_N2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="2700.00" end="3000.00" id="TLSTL_0_InductLoopOn_N2TL_3" nVehContrib="2" flow="24.00" occupancy="0.31" speed="10.68" harmonicMeanSpeed="10.64" length="5.00" nVehEntered="2"/>
+    <interval begin="2700.00" end="3000.00" id="TLSTL_0_InductLoopOn_E2TL_0" nVehContrib="11" flow="132.00" occupancy="1.56" speed="11.88" harmonicMeanSpeed="11.78" length="5.00" nVehEntered="11"/>
+    <interval begin="2700.00" end="3000.00" id="TLSTL_0_InductLoopOn_E2TL_1" nVehContrib="2" flow="24.00" occupancy="0.25" speed="13.56" harmonicMeanSpeed="13.49" length="5.00" nVehEntered="2"/>
+    <interval begin="2700.00" end="3000.00" id="TLSTL_0_InductLoopOn_E2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="2700.00" end="3000.00" id="TLSTL_0_InductLoopOn_E2TL_3" nVehContrib="3" flow="36.00" occupancy="0.50" speed="10.08" harmonicMeanSpeed="10.06" length="5.00" nVehEntered="3"/>
+    <interval begin="2700.00" end="3000.00" id="TLSTL_0_InductLoopOn_S2TL_0" nVehContrib="13" flow="156.00" occupancy="1.74" speed="12.74" harmonicMeanSpeed="12.68" length="5.00" nVehEntered="14"/>
+    <interval begin="2700.00" end="3000.00" id="TLSTL_0_InductLoopOn_S2TL_1" nVehContrib="2" flow="24.00" occupancy="0.57" speed="7.82" harmonicMeanSpeed="5.81" length="5.00" nVehEntered="2"/>
+    <interval begin="2700.00" end="3000.00" id="TLSTL_0_InductLoopOn_S2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="2700.00" end="3000.00" id="TLSTL_0_InductLoopOn_S2TL_3" nVehContrib="1" flow="12.00" occupancy="0.17" speed="9.73" harmonicMeanSpeed="9.73" length="5.00" nVehEntered="1"/>
+    <interval begin="2700.00" end="3000.00" id="TLSTL_0_InductLoopOn_W2TL_0" nVehContrib="5" flow="60.00" occupancy="0.62" speed="13.52" harmonicMeanSpeed="13.48" length="5.00" nVehEntered="5"/>
+    <interval begin="2700.00" end="3000.00" id="TLSTL_0_InductLoopOn_W2TL_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="2700.00" end="3000.00" id="TLSTL_0_InductLoopOn_W2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="2700.00" end="3000.00" id="TLSTL_0_InductLoopOn_W2TL_3" nVehContrib="3" flow="36.00" occupancy="0.62" speed="9.08" harmonicMeanSpeed="8.11" length="5.00" nVehEntered="3"/>
+    <interval begin="3000.00" end="3300.00" id="TLSTL_0_InductLoopOn_N2TL_0" nVehContrib="6" flow="72.00" occupancy="0.79" speed="12.82" harmonicMeanSpeed="12.73" length="5.00" nVehEntered="6"/>
+    <interval begin="3000.00" end="3300.00" id="TLSTL_0_InductLoopOn_N2TL_1" nVehContrib="1" flow="12.00" occupancy="0.12" speed="13.64" harmonicMeanSpeed="13.64" length="5.00" nVehEntered="1"/>
+    <interval begin="3000.00" end="3300.00" id="TLSTL_0_InductLoopOn_N2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3000.00" end="3300.00" id="TLSTL_0_InductLoopOn_N2TL_3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3000.00" end="3300.00" id="TLSTL_0_InductLoopOn_E2TL_0" nVehContrib="6" flow="72.00" occupancy="0.77" speed="13.22" harmonicMeanSpeed="13.06" length="5.00" nVehEntered="6"/>
+    <interval begin="3000.00" end="3300.00" id="TLSTL_0_InductLoopOn_E2TL_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3000.00" end="3300.00" id="TLSTL_0_InductLoopOn_E2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3000.00" end="3300.00" id="TLSTL_0_InductLoopOn_E2TL_3" nVehContrib="2" flow="24.00" occupancy="0.32" speed="10.51" harmonicMeanSpeed="10.49" length="5.00" nVehEntered="2"/>
+    <interval begin="3000.00" end="3300.00" id="TLSTL_0_InductLoopOn_S2TL_0" nVehContrib="5" flow="60.00" occupancy="0.68" speed="14.16" harmonicMeanSpeed="14.13" length="5.00" nVehEntered="6"/>
+    <interval begin="3000.00" end="3300.00" id="TLSTL_0_InductLoopOn_S2TL_1" nVehContrib="1" flow="12.00" occupancy="0.37" speed="4.45" harmonicMeanSpeed="4.45" length="5.00" nVehEntered="1"/>
+    <interval begin="3000.00" end="3300.00" id="TLSTL_0_InductLoopOn_S2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3000.00" end="3300.00" id="TLSTL_0_InductLoopOn_S2TL_3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3000.00" end="3300.00" id="TLSTL_0_InductLoopOn_W2TL_0" nVehContrib="5" flow="60.00" occupancy="0.67" speed="13.16" harmonicMeanSpeed="13.00" length="5.00" nVehEntered="6"/>
+    <interval begin="3000.00" end="3300.00" id="TLSTL_0_InductLoopOn_W2TL_1" nVehContrib="1" flow="12.00" occupancy="0.43" speed="3.89" harmonicMeanSpeed="3.89" length="5.00" nVehEntered="1"/>
+    <interval begin="3000.00" end="3300.00" id="TLSTL_0_InductLoopOn_W2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3000.00" end="3300.00" id="TLSTL_0_InductLoopOn_W2TL_3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3300.00" end="3600.00" id="TLSTL_0_InductLoopOn_N2TL_0" nVehContrib="1" flow="12.00" occupancy="0.15" speed="11.32" harmonicMeanSpeed="11.32" length="5.00" nVehEntered="1"/>
+    <interval begin="3300.00" end="3600.00" id="TLSTL_0_InductLoopOn_N2TL_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3300.00" end="3600.00" id="TLSTL_0_InductLoopOn_N2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3300.00" end="3600.00" id="TLSTL_0_InductLoopOn_N2TL_3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3300.00" end="3600.00" id="TLSTL_0_InductLoopOn_E2TL_0" nVehContrib="7" flow="84.00" occupancy="0.85" speed="13.76" harmonicMeanSpeed="13.72" length="5.00" nVehEntered="7"/>
+    <interval begin="3300.00" end="3600.00" id="TLSTL_0_InductLoopOn_E2TL_1" nVehContrib="1" flow="12.00" occupancy="0.13" speed="13.16" harmonicMeanSpeed="13.16" length="5.00" nVehEntered="1"/>
+    <interval begin="3300.00" end="3600.00" id="TLSTL_0_InductLoopOn_E2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3300.00" end="3600.00" id="TLSTL_0_InductLoopOn_E2TL_3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3300.00" end="3600.00" id="TLSTL_0_InductLoopOn_S2TL_0" nVehContrib="5" flow="60.00" occupancy="0.66" speed="12.74" harmonicMeanSpeed="12.71" length="5.00" nVehEntered="5"/>
+    <interval begin="3300.00" end="3600.00" id="TLSTL_0_InductLoopOn_S2TL_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3300.00" end="3600.00" id="TLSTL_0_InductLoopOn_S2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3300.00" end="3600.00" id="TLSTL_0_InductLoopOn_S2TL_3" nVehContrib="1" flow="12.00" occupancy="0.17" speed="9.72" harmonicMeanSpeed="9.72" length="5.00" nVehEntered="1"/>
+    <interval begin="3300.00" end="3600.00" id="TLSTL_0_InductLoopOn_W2TL_0" nVehContrib="1" flow="12.00" occupancy="0.13" speed="13.18" harmonicMeanSpeed="13.18" length="5.00" nVehEntered="1"/>
+    <interval begin="3300.00" end="3600.00" id="TLSTL_0_InductLoopOn_W2TL_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3300.00" end="3600.00" id="TLSTL_0_InductLoopOn_W2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3300.00" end="3600.00" id="TLSTL_0_InductLoopOn_W2TL_3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3600.00" end="3900.00" id="TLSTL_0_InductLoopOn_N2TL_0" nVehContrib="4" flow="48.00" occupancy="0.51" speed="13.18" harmonicMeanSpeed="13.15" length="5.00" nVehEntered="4"/>
+    <interval begin="3600.00" end="3900.00" id="TLSTL_0_InductLoopOn_N2TL_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3600.00" end="3900.00" id="TLSTL_0_InductLoopOn_N2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3600.00" end="3900.00" id="TLSTL_0_InductLoopOn_N2TL_3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3600.00" end="3900.00" id="TLSTL_0_InductLoopOn_E2TL_0" nVehContrib="1" flow="12.00" occupancy="0.14" speed="12.21" harmonicMeanSpeed="12.21" length="5.00" nVehEntered="1"/>
+    <interval begin="3600.00" end="3900.00" id="TLSTL_0_InductLoopOn_E2TL_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3600.00" end="3900.00" id="TLSTL_0_InductLoopOn_E2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3600.00" end="3900.00" id="TLSTL_0_InductLoopOn_E2TL_3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3600.00" end="3900.00" id="TLSTL_0_InductLoopOn_S2TL_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3600.00" end="3900.00" id="TLSTL_0_InductLoopOn_S2TL_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3600.00" end="3900.00" id="TLSTL_0_InductLoopOn_S2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3600.00" end="3900.00" id="TLSTL_0_InductLoopOn_S2TL_3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3600.00" end="3900.00" id="TLSTL_0_InductLoopOn_W2TL_0" nVehContrib="1" flow="12.00" occupancy="0.11" speed="14.65" harmonicMeanSpeed="14.65" length="5.00" nVehEntered="1"/>
+    <interval begin="3600.00" end="3900.00" id="TLSTL_0_InductLoopOn_W2TL_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3600.00" end="3900.00" id="TLSTL_0_InductLoopOn_W2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3600.00" end="3900.00" id="TLSTL_0_InductLoopOn_W2TL_3" nVehContrib="1" flow="12.00" occupancy="0.16" speed="10.32" harmonicMeanSpeed="10.32" length="5.00" nVehEntered="1"/>
+    <interval begin="3900.00" end="4200.00" id="TLSTL_0_InductLoopOn_N2TL_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3900.00" end="4200.00" id="TLSTL_0_InductLoopOn_N2TL_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3900.00" end="4200.00" id="TLSTL_0_InductLoopOn_N2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3900.00" end="4200.00" id="TLSTL_0_InductLoopOn_N2TL_3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3900.00" end="4200.00" id="TLSTL_0_InductLoopOn_E2TL_0" nVehContrib="1" flow="12.00" occupancy="0.12" speed="13.34" harmonicMeanSpeed="13.34" length="5.00" nVehEntered="1"/>
+    <interval begin="3900.00" end="4200.00" id="TLSTL_0_InductLoopOn_E2TL_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3900.00" end="4200.00" id="TLSTL_0_InductLoopOn_E2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3900.00" end="4200.00" id="TLSTL_0_InductLoopOn_E2TL_3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3900.00" end="4200.00" id="TLSTL_0_InductLoopOn_S2TL_0" nVehContrib="1" flow="12.00" occupancy="0.11" speed="15.85" harmonicMeanSpeed="15.85" length="5.00" nVehEntered="1"/>
+    <interval begin="3900.00" end="4200.00" id="TLSTL_0_InductLoopOn_S2TL_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3900.00" end="4200.00" id="TLSTL_0_InductLoopOn_S2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3900.00" end="4200.00" id="TLSTL_0_InductLoopOn_S2TL_3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3900.00" end="4200.00" id="TLSTL_0_InductLoopOn_W2TL_0" nVehContrib="1" flow="12.00" occupancy="0.16" speed="10.58" harmonicMeanSpeed="10.58" length="5.00" nVehEntered="1"/>
+    <interval begin="3900.00" end="4200.00" id="TLSTL_0_InductLoopOn_W2TL_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3900.00" end="4200.00" id="TLSTL_0_InductLoopOn_W2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3900.00" end="4200.00" id="TLSTL_0_InductLoopOn_W2TL_3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4200.00" end="4500.00" id="TLSTL_0_InductLoopOn_N2TL_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4200.00" end="4500.00" id="TLSTL_0_InductLoopOn_N2TL_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4200.00" end="4500.00" id="TLSTL_0_InductLoopOn_N2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4200.00" end="4500.00" id="TLSTL_0_InductLoopOn_N2TL_3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4200.00" end="4500.00" id="TLSTL_0_InductLoopOn_E2TL_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4200.00" end="4500.00" id="TLSTL_0_InductLoopOn_E2TL_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4200.00" end="4500.00" id="TLSTL_0_InductLoopOn_E2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4200.00" end="4500.00" id="TLSTL_0_InductLoopOn_E2TL_3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4200.00" end="4500.00" id="TLSTL_0_InductLoopOn_S2TL_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4200.00" end="4500.00" id="TLSTL_0_InductLoopOn_S2TL_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4200.00" end="4500.00" id="TLSTL_0_InductLoopOn_S2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4200.00" end="4500.00" id="TLSTL_0_InductLoopOn_S2TL_3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4200.00" end="4500.00" id="TLSTL_0_InductLoopOn_W2TL_0" nVehContrib="1" flow="12.00" occupancy="0.17" speed="9.83" harmonicMeanSpeed="9.83" length="5.00" nVehEntered="1"/>
+    <interval begin="4200.00" end="4500.00" id="TLSTL_0_InductLoopOn_W2TL_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4200.00" end="4500.00" id="TLSTL_0_InductLoopOn_W2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4200.00" end="4500.00" id="TLSTL_0_InductLoopOn_W2TL_3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4500.00" end="4800.00" id="TLSTL_0_InductLoopOn_N2TL_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4500.00" end="4800.00" id="TLSTL_0_InductLoopOn_N2TL_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4500.00" end="4800.00" id="TLSTL_0_InductLoopOn_N2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4500.00" end="4800.00" id="TLSTL_0_InductLoopOn_N2TL_3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4500.00" end="4800.00" id="TLSTL_0_InductLoopOn_E2TL_0" nVehContrib="1" flow="12.00" occupancy="0.13" speed="12.63" harmonicMeanSpeed="12.63" length="5.00" nVehEntered="1"/>
+    <interval begin="4500.00" end="4800.00" id="TLSTL_0_InductLoopOn_E2TL_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4500.00" end="4800.00" id="TLSTL_0_InductLoopOn_E2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4500.00" end="4800.00" id="TLSTL_0_InductLoopOn_E2TL_3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4500.00" end="4800.00" id="TLSTL_0_InductLoopOn_S2TL_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4500.00" end="4800.00" id="TLSTL_0_InductLoopOn_S2TL_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4500.00" end="4800.00" id="TLSTL_0_InductLoopOn_S2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4500.00" end="4800.00" id="TLSTL_0_InductLoopOn_S2TL_3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4500.00" end="4800.00" id="TLSTL_0_InductLoopOn_W2TL_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4500.00" end="4800.00" id="TLSTL_0_InductLoopOn_W2TL_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4500.00" end="4800.00" id="TLSTL_0_InductLoopOn_W2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4500.00" end="4800.00" id="TLSTL_0_InductLoopOn_W2TL_3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4800.00" end="5100.00" id="TLSTL_0_InductLoopOn_N2TL_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4800.00" end="5100.00" id="TLSTL_0_InductLoopOn_N2TL_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4800.00" end="5100.00" id="TLSTL_0_InductLoopOn_N2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4800.00" end="5100.00" id="TLSTL_0_InductLoopOn_N2TL_3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4800.00" end="5100.00" id="TLSTL_0_InductLoopOn_E2TL_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4800.00" end="5100.00" id="TLSTL_0_InductLoopOn_E2TL_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4800.00" end="5100.00" id="TLSTL_0_InductLoopOn_E2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4800.00" end="5100.00" id="TLSTL_0_InductLoopOn_E2TL_3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4800.00" end="5100.00" id="TLSTL_0_InductLoopOn_S2TL_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4800.00" end="5100.00" id="TLSTL_0_InductLoopOn_S2TL_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4800.00" end="5100.00" id="TLSTL_0_InductLoopOn_S2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4800.00" end="5100.00" id="TLSTL_0_InductLoopOn_S2TL_3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4800.00" end="5100.00" id="TLSTL_0_InductLoopOn_W2TL_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4800.00" end="5100.00" id="TLSTL_0_InductLoopOn_W2TL_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4800.00" end="5100.00" id="TLSTL_0_InductLoopOn_W2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4800.00" end="5100.00" id="TLSTL_0_InductLoopOn_W2TL_3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="5100.00" end="5400.00" id="TLSTL_0_InductLoopOn_N2TL_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="5100.00" end="5400.00" id="TLSTL_0_InductLoopOn_N2TL_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="5100.00" end="5400.00" id="TLSTL_0_InductLoopOn_N2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="5100.00" end="5400.00" id="TLSTL_0_InductLoopOn_N2TL_3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="5100.00" end="5400.00" id="TLSTL_0_InductLoopOn_E2TL_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="5100.00" end="5400.00" id="TLSTL_0_InductLoopOn_E2TL_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="5100.00" end="5400.00" id="TLSTL_0_InductLoopOn_E2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="5100.00" end="5400.00" id="TLSTL_0_InductLoopOn_E2TL_3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="5100.00" end="5400.00" id="TLSTL_0_InductLoopOn_S2TL_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="5100.00" end="5400.00" id="TLSTL_0_InductLoopOn_S2TL_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="5100.00" end="5400.00" id="TLSTL_0_InductLoopOn_S2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="5100.00" end="5400.00" id="TLSTL_0_InductLoopOn_S2TL_3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="5100.00" end="5400.00" id="TLSTL_0_InductLoopOn_W2TL_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="5100.00" end="5400.00" id="TLSTL_0_InductLoopOn_W2TL_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="5100.00" end="5400.00" id="TLSTL_0_InductLoopOn_W2TL_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="5100.00" end="5400.00" id="TLSTL_0_InductLoopOn_W2TL_3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+</detector>
